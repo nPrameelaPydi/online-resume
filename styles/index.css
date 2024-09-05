@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    list-style: none;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.section1 {
+    border: 2px solid cyan;
+    width: 80%;
+    height: 20%;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2px;
+}
+
+/*----- box1 styling------ */
+.box1 {
+    border: 1px solid rgb(130, 152, 176);
+    width: 60%;
+    flex-grow: 2;
+    margin: 0.5rem 0 0 0.5rem;
+    display: flex;
+}
+
+#profile-pic {
+    flex-grow: 1;
+}
+
+#title {
+    flex-grow: 2;
+    padding-top: 2rem;
+}
+
+#title h5 {
+    color: blue;
+}
+
+
+/*----- box2 styling----  */
+.box2 {
+    border: 1px solid rgb(130, 152, 176);
+    width: 35%;
+    flex-grow: 1;
+    margin: 0.5rem 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.general-info {
+    display: flex;
+    align-items: center;
+    /* Align items vertically centered */
+    margin-bottom: 5px;
+    /* Space between rows */
+}
+
+.label,
+.separator,
+.value {
+    display: inline-flex;
+}
+
+.value {
+    color: grey;
+}
+
+.label {
+    flex: 1;
+}
+
+.separator {
+    padding: 0 5px;
+    /* Space around the colon */
+}
+
+.value {
+    flex: 2;
+}
+
+/*----- box3 styling ------ */
+.box3 {
+    border: 1px solid rgb(130, 152, 176);
+    width: 100%;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.box3 p {
+    font-size: small;
+    padding: 0.5rem;
+    color: grey;
+}
