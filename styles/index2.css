@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #042b39;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-direction: row;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-text p {
+    margin: 0.5em 0;
+}
+
+.header-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-text a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2em 0;
+}
+
+section {
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #042b39;
+    padding-bottom: 0.5em;
+    color: #042b39;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Skills and References Section */
+.skills-refs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+}
+
+.skills,
+.references {
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Skills Section */
+.skill {
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #ccc;
+}
+
+.js-bar {
+    background-color: #f0db4f;
+}
+
+.html-bar {
+    background-color: #e34f26;
+}
+
+.css-bar {
+    background-color: #1572b6;
+}
+
+.react-bar {
+    background-color: #61dafb;
+}
+
+.references .referee {
+    margin-bottom: 20px;
+}
+
+.references .referee ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.references .referee li {
+    margin-bottom: 5px;
+}
+
+.references .referee i {
+    margin-right: 5px;
+}
+
+/* Experience Section */
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.job {
+    margin-bottom: 1.5em;
+}
+
+.job h3 {
+    margin: 0;
+    color: #052b32;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background: #042b39;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+    margin-top: 1rem;
+
+}
+
+footer p {
+    margin: 0;
+}
