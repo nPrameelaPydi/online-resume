@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #042b39;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-text p {
+    margin: 0.5em 0;
+}
+
+.header-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-text a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2em 0;
+}
+
+section {
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #042b39;
+    padding-bottom: 0.5em;
+    color: #042b39;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.bar {
+    height: 8px;
+    background: #042b39;
+    border-radius: 4px;
+}
+
+/* Experience Section */
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.job {
+    margin-bottom: 1.5em;
+}
+
+.job h3 {
+    margin: 0;
+    color: #052b32;
+}
+
+/* Footer Styles */
+footer {
+    background: #042b39;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
